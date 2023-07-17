@@ -13,4 +13,6 @@
 <resources>
     <color name="slider_track_color">#FF757575</color> <!-- Gray color for the track -->
     <color name="slider_thumb_color">#FF757575</color> <!-- White color for the thumb -->
+    <color name="alert_slider_notification_background">?attr/colorBackgroundFloating</color>
+    <color name="alert_slider_icon_color">#FFFFFFFF</color>
 </resources>
