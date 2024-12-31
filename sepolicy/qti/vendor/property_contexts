@@ -39,3 +39,6 @@ vendor.gsm.serial         u:object_r:vendor_nw_exported_system_prop:s0
 vendor.oplus.touch.          u:object_r:vendor_oplus_touch_prop:s0
 vendor.oplus.touchDaemon.    u:object_r:vendor_oplus_touch_prop:s0
 vendor.touchdaemon.          u:object_r:vendor_oplus_touch_prop:s0
+
+# URCC
+vendor.oplus.urcc.started    u:object_r:vendor_oplus_urcc_prop:s0
