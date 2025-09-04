@@ -149,4 +149,6 @@ interface ICharger {
   int setChgRusConfig(String data);
   String getPsyBatterySN();
   String getBattGaugeInfo();
+  int setChgConfig(vendor.oplus.hardware.charger.ChgFuncFlag flag, String extra, int callname);
+  String getChgConfig(vendor.oplus.hardware.charger.ChgFuncFlag flag, String extra, int callname);
 }
