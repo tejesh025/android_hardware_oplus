@@ -151,4 +151,6 @@ interface ICharger {
   String getBattGaugeInfo();
   int setChgConfig(vendor.oplus.hardware.charger.ChgFuncFlag flag, String extra, int callname);
   String getChgConfig(vendor.oplus.hardware.charger.ChgFuncFlag flag, String extra, int callname);
+  int setUsbEyeDiagram(int model, String eyeDiagram, boolean isDefaultEyeDiagram);
+  String getUsbCurrentEyeDiagram(int model);
 }
