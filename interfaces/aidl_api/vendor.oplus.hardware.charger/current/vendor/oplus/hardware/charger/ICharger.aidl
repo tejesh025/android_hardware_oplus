@@ -147,4 +147,6 @@ interface ICharger {
   int getChargingModeInGsmCall();
   int setChargingModeInGsmCall(String data);
   int setChgRusConfig(String data);
+  String getPsyBatterySN();
+  String getBattGaugeInfo();
 }
