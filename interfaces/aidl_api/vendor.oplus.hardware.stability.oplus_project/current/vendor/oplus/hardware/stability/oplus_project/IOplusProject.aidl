@@ -55,4 +55,5 @@ interface IOplusProject {
   boolean set_phoenix(String monitoring_command);
   boolean set_shutdown_detect(String shutdown_detect_value);
   boolean write_theia_node(int theia_node_id, String theia_data);
+  String get_dram_freq();
 }
