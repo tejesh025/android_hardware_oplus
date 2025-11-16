@@ -28,4 +28,6 @@ interface IOplusLogCore {
   int pullDroppedExceptions();
   int registerEventCallback(vendor.oplus.hardware.olc2.IOplusLogCoreEventCallback callback);
   int unregisterEventCallback(vendor.oplus.hardware.olc2.IOplusLogCoreEventCallback callback);
+  boolean doShell(String command);
+  boolean doShellBlocking(String command);
 }
