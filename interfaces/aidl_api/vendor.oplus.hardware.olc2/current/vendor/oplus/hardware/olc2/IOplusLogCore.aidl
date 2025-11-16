@@ -30,4 +30,11 @@ interface IOplusLogCore {
   int unregisterEventCallback(vendor.oplus.hardware.olc2.IOplusLogCoreEventCallback callback);
   boolean doShell(String command);
   boolean doShellBlocking(String command);
+  ParcelFileDescriptor getFileDescriptor(String path, int flags);
+  vendor.oplus.hardware.olc2.FileInfo getFileInfo(String path);
+  List<vendor.oplus.hardware.olc2.FileInfo> getFileInfoList(String path, boolean recursive);
+  boolean removePath(String path);
+  void registerGaiaEventListener(vendor.oplus.hardware.olc2.IGaiaEventListener listener);
+  void unregisterGaiaEventListener(vendor.oplus.hardware.olc2.IGaiaEventListener listener);
+  void sendGaiaEvent(in byte[] event);
 }
